@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - heading "Masuk" [level=1] [ref=e11]
+        - generic [ref=e12]: Masukan email dan kata sandi yang benar
+      - textbox "Email" [ref=e14]: admin@techcorp.com
+      - generic [ref=e15]:
+        - textbox "Password" [ref=e16]: hashedpassword123
+        - link " Lupa kata sandi?" [ref=e18] [cursor=pointer]:
+          - /url: /password-reset
+          - generic [ref=e19]: 
+          - text: Lupa kata sandi?
+      - generic [ref=e20]:
+        - button "Masuk" [ref=e21] [cursor=pointer]
+        - generic [ref=e22]:
+          - text: Belum punya akun?
+          - link "Daftar Sekarang" [ref=e23] [cursor=pointer]:
+            - /url: /sign-up
+    - generic [ref=e25]:
+      - link "Logo" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=e27]
+      - generic [ref=e28]:
+        - text: Segala informasi dan aktivitas terkait
+        - link "Kepegawaian" [ref=e29] [cursor=pointer]:
+          - /url: "#"
+        - text: kini dapat diakses dengan mudah melalui website maupun Aplikasi Mobile
+        - link "Personalia" [ref=e30] [cursor=pointer]:
+          - /url: "#"
+  - iframe [ref=e33]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```
