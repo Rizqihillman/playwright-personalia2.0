@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { loginAs } from './helpers/auth'; // pastikan path benar
+import { loginAs } from '../helpers/auth'; // pastikan path benar
 
 test.describe('Screen Dokumen', () => {
   test.beforeEach(async ({ page }) => {

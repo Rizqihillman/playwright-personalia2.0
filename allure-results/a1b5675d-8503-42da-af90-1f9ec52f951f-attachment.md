@@ -1,37 +1,39 @@
 # Page snapshot
 
 ```yaml
-- generic [active] [ref=e1]:
+- generic [ref=e1]:
   - generic [ref=e4]:
     - generic [ref=e9]:
       - generic [ref=e10]:
         - heading "Masuk" [level=1] [ref=e11]
         - generic [ref=e12]: Masukan email dan kata sandi yang benar
-      - textbox "Email" [ref=e14]: admin@techcorp.com
-      - generic [ref=e15]:
-        - textbox "Password" [ref=e16]: hashedpassword123
-        - link " Lupa kata sandi?" [ref=e18] [cursor=pointer]:
+      - generic [ref=e13]:
+        - textbox "Email" [ref=e14]: abc123
+        - alert [ref=e17]: Email must be a valid email
+      - generic [ref=e18]:
+        - textbox "Password" [ref=e19]: pass123
+        - link " Lupa kata sandi?" [ref=e21] [cursor=pointer]:
           - /url: /password-reset
-          - generic [ref=e19]: 
+          - generic [ref=e22]: 
           - text: Lupa kata sandi?
-      - generic [ref=e20]:
-        - button "Masuk" [ref=e21] [cursor=pointer]
-        - generic [ref=e22]:
+      - generic [ref=e23]:
+        - button "Masuk" [active] [ref=e24] [cursor=pointer]
+        - generic [ref=e25]:
           - text: Belum punya akun?
-          - link "Daftar Sekarang" [ref=e23] [cursor=pointer]:
+          - link "Daftar Sekarang" [ref=e26] [cursor=pointer]:
             - /url: /sign-up
-    - generic [ref=e25]:
-      - link "Logo" [ref=e26] [cursor=pointer]:
+    - generic [ref=e28]:
+      - link "Logo" [ref=e29] [cursor=pointer]:
         - /url: /
-        - img "Logo" [ref=e27]
-      - generic [ref=e28]:
+        - img "Logo" [ref=e30]
+      - generic [ref=e31]:
         - text: Segala informasi dan aktivitas terkait
-        - link "Kepegawaian" [ref=e29] [cursor=pointer]:
+        - link "Kepegawaian" [ref=e32] [cursor=pointer]:
           - /url: "#"
         - text: kini dapat diakses dengan mudah melalui website maupun Aplikasi Mobile
-        - link "Personalia" [ref=e30] [cursor=pointer]:
+        - link "Personalia" [ref=e33] [cursor=pointer]:
           - /url: "#"
-  - iframe [ref=e33]:
+  - iframe [ref=e36]:
     - generic [ref=f1e2]:
       - generic [ref=f1e5]:
         - link "Privacy" [ref=f1e6] [cursor=pointer]:
