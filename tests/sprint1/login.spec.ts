@@ -1,5 +1,5 @@
 import { test, expect, Page } from '@playwright/test';
-import { loginAs } from '../helpers/auth';
+import { loginAs } from '../../utils/auth';
 
 // Utility untuk menunggu popup “Ok, got it!” jika muncul
 async function handlePopup(page: Page) {

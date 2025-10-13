@@ -66,3 +66,6 @@ Command Prompt (single-line safe run):
 ```cmd
 cd /d "D:\PRD [PERSONALIA 2.0]\playwright-personalia2.0" && set PLAYWRIGHT_ENV=dev && npm test && npx --no-install allure generate "allure-results" --clean -o "allure-report" && npx --no-install allure open "allure-report"
 ```
+
+cek database sudah konek apa belum --
+npx ts-node test-db-connection.ts

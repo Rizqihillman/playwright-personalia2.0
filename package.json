@@ -1,6 +1,7 @@
 {
   "name": "playwright-personalia2.0",
   "version": "0.1.0",
+  "type": "commonjs",
   "private": true,
   "scripts": {
     "test": "playwright test",
@@ -13,8 +14,12 @@
   "devDependencies": {
     "@playwright/test": "^1.56.0",
     "@types/node": "^24.7.0",
+    "@types/pg": "^8.15.5",
     "allure-playwright": "^3.4.1",
     "cross-env": "^10.1.0",
     "dotenv": "^16.0.0"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
   }
 }
