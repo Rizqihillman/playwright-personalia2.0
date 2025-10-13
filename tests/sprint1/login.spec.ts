@@ -85,9 +85,10 @@ test.describe('Login Negative Scenarios', () => {
     await page.locator('#kt_sign_in_submit').click();
     await expect(page.locator('text=Email atau password salah')).toBeVisible();
   });
+  
 });
 
-// ------------------------------
+// ---------------------------------
 // ⚠️ Edge Cases (bisa diaktifkan nanti)
 // ------------------------------
 // test.describe('Login Edge Cases', () => {
