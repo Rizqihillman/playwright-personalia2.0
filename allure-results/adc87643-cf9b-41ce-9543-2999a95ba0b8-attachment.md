@@ -1,0 +1,61 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - heading [level=1] [ref=e11]: Masuk
+        - generic [ref=e12]: Masukan email dan kata sandi yang benar
+      - textbox [ref=e14]:
+        - /placeholder: Email
+        - text: admin@techcorp.com
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - textbox [ref=e17]:
+            - /placeholder: Password
+            - text: "*!satu2tiga!*S"
+          - button [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: 
+        - link [ref=e21] [cursor=pointer]:
+          - /url: /password-reset
+          - generic [ref=e22]: 
+          - text: Lupa kata sandi?
+      - generic [ref=e23]:
+        - button [ref=e24] [cursor=pointer]: Masuk
+        - generic [ref=e25]:
+          - text: Belum punya akun?
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /sign-up
+            - text: Daftar Sekarang
+    - generic [ref=e28]:
+      - link [ref=e29] [cursor=pointer]:
+        - /url: /
+        - img [ref=e30]
+      - generic [ref=e31]:
+        - text: Segala informasi dan aktivitas terkait
+        - link [ref=e32] [cursor=pointer]:
+          - /url: "#"
+          - text: Kepegawaian
+        - text: kini dapat diakses dengan mudah melalui website maupun Aplikasi Mobile
+        - link [ref=e33] [cursor=pointer]:
+          - /url: "#"
+          - text: Personalia
+  - iframe [ref=e36]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+  - dialog [ref=e38]:
+    - generic [ref=e43]: Network Error
+    - text: "!"
+    - button "Coba lagi!" [active] [ref=e45] [cursor=pointer]
+```

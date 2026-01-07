@@ -69,3 +69,10 @@ cd /d "D:\PRD [PERSONALIA 2.0]\playwright-personalia2.0" && set PLAYWRIGHT_ENV=d
 
 cek database sudah konek apa belum --
 npx ts-node test-db-connection.ts
+
+
+# Jalankan environment dev (default)
+npx cross-env ENV=dev npx playwright test tests/document.spec.ts --headed
+
+# Jalankan untuk staging
+npx cross-env ENV=staging npx playwright test tests/document.spec.ts --headed

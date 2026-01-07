@@ -4,3 +4,7 @@ playwright-report/
 .vscode/
 .env.*
 .auth/
+.env
+
+
+/generated/prisma

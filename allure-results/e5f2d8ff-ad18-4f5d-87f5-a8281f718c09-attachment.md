@@ -1,0 +1,733 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e6]:
+          - img "Admin Test User" [ref=e8]
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - link "Admin Test User" [ref=e12] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e13]: Administrator
+            - button " " [ref=e15] [cursor=pointer]:
+              - generic [ref=e16]:
+                - generic [ref=e17]: 
+                - generic: 
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22] [cursor=pointer]:
+              - generic [ref=e24]:
+                - generic [ref=e25]: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic [ref=e26]: Personalia
+            - generic [ref=e28]:
+              - link "Dashboard" [ref=e30] [cursor=pointer]:
+                - /url: /dashboard
+                - generic [ref=e33]: Dashboard
+              - link "Data Pegawai" [ref=e35] [cursor=pointer]:
+                - /url: /master-employee
+                - generic [ref=e38]: Data Pegawai
+              - link "Struktur Organisasi" [ref=e40] [cursor=pointer]:
+                - /url: /structure-org
+                - generic [ref=e43]: Struktur Organisasi
+              - link "Dokumen" [ref=e45] [cursor=pointer]:
+                - /url: /document
+                - generic [ref=e48]: Dokumen
+              - link "Kontrak Kerja" [ref=e50] [cursor=pointer]:
+                - /url: /contract
+                - generic [ref=e53]: Kontrak Kerja
+              - link "Riwayat Kerja" [ref=e55] [cursor=pointer]:
+                - /url: /work-experience
+                - generic [ref=e58]: Riwayat Kerja
+          - generic [ref=e60] [cursor=pointer]:
+            - generic [ref=e62]:
+              - generic [ref=e63]: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e64]: Layanan Mandiri
+          - link "    Payroll" [ref=e67] [cursor=pointer]:
+            - /url: /payroll
+            - generic [ref=e69]:
+              - generic [ref=e70]: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e71]: Payroll
+          - generic [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e77]: Pengaturan
+          - generic [ref=e80] [cursor=pointer]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e84]: Admin Area
+          - link "  Changelog v2.0.0" [ref=e90] [cursor=pointer]:
+            - /url: https://preview.keenthemes.com/metronic8/vue/docs/getting-started/changelog
+            - generic [ref=e92]:
+              - generic [ref=e93]: 
+              - generic: 
+            - generic [ref=e94]: Changelog v2.0.0
+        - link "Docs & Components  " [ref=e96] [cursor=pointer]:
+          - /url: https://preview.keenthemes.com/metronic8/vue/docs/index
+          - generic [ref=e97]: Docs & Components
+          - generic [ref=e98]:
+            - generic [ref=e99]: 
+            - generic: 
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - link "Logo" [ref=e103] [cursor=pointer]:
+              - /url: /dashboard
+              - img "Logo" [ref=e104]
+            - generic [ref=e105] [cursor=pointer]:
+              - generic [ref=e106]:
+                - generic [ref=e107]: 
+                - generic: 
+              - text:  
+            - text:  
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - heading "Dokumen" [level=1] [ref=e111]
+              - list [ref=e112]:
+                - listitem [ref=e113]:
+                  - link "Home" [ref=e114] [cursor=pointer]:
+                    - /url: /
+                - listitem [ref=e115]
+                - listitem [ref=e117]: Dokumen
+            - generic [ref=e119]:
+              - link "         " [ref=e120] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e121]:
+                  - generic [ref=e122]: 
+                  - generic: 
+                  - generic: 
+                  - generic: 
+                  - generic: 
+                  - generic: 
+                  - generic: 
+                  - generic: 
+                  - generic: 
+                  - generic: 
+                - text:  
+              - text:                
+        - generic [ref=e125]:
+          - generic [ref=e132]:
+            - button "Download Zip" [disabled]:
+              - img
+              - text: Download Zip
+            - button "  Filter" [ref=e133] [cursor=pointer]:
+              - generic [ref=e134]:
+                - generic [ref=e135]: 
+                - generic: 
+              - text: Filter
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - generic [ref=e142]: Per
+              - combobox [ref=e143]:
+                - option "20" [selected]
+                - option "40"
+                - option "60"
+                - option "100"
+              - generic [ref=e144]: Baris
+            - generic [ref=e146]:
+              - table [ref=e153]:
+                - rowgroup [ref=e160]:
+                  - row "Nama Pegawai Tipe Dokumen Nama Dokumen Berkas" [ref=e161]:
+                    - cell [ref=e162]:
+                      - generic [ref=e165] [cursor=pointer]:
+                        - checkbox
+                    - cell "Nama Pegawai" [ref=e167]:
+                      - generic [ref=e170] [cursor=pointer]: Nama Pegawai
+                    - cell "Tipe Dokumen" [ref=e171]:
+                      - generic [ref=e174] [cursor=pointer]: Tipe Dokumen
+                    - cell "Nama Dokumen" [ref=e175]:
+                      - generic [ref=e178] [cursor=pointer]: Nama Dokumen
+                    - cell "Berkas" [ref=e179]:
+                      - generic [ref=e182]: Berkas
+                - rowgroup [ref=e183]:
+                  - row "RIZAL SAPUTRA Ijazah Dokumen Ijazah Download" [ref=e184]:
+                    - cell [ref=e185]:
+                      - generic [ref=e188] [cursor=pointer]:
+                        - checkbox
+                    - cell "RIZAL SAPUTRA" [ref=e190]:
+                      - generic [ref=e192]: RIZAL SAPUTRA
+                    - cell "Ijazah" [ref=e193]:
+                      - generic [ref=e195]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e196]:
+                      - generic [ref=e198]: Dokumen Ijazah
+                    - cell "Download" [ref=e199]:
+                      - button "Download" [ref=e202] [cursor=pointer]:
+                        - img [ref=e203]
+                        - text: Download
+                  - row "YANI UTAMI Ijazah Dokumen Ijazah Download" [ref=e206]:
+                    - cell [ref=e207]:
+                      - generic [ref=e210] [cursor=pointer]:
+                        - checkbox
+                    - cell "YANI UTAMI" [ref=e212]:
+                      - generic [ref=e214]: YANI UTAMI
+                    - cell "Ijazah" [ref=e215]:
+                      - generic [ref=e217]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e218]:
+                      - generic [ref=e220]: Dokumen Ijazah
+                    - cell "Download" [ref=e221]:
+                      - button "Download" [ref=e224] [cursor=pointer]:
+                        - img [ref=e225]
+                        - text: Download
+                  - row "ARIF SANTOSO Ijazah Dokumen Ijazah Download" [ref=e228]:
+                    - cell [ref=e229]:
+                      - generic [ref=e232] [cursor=pointer]:
+                        - checkbox
+                    - cell "ARIF SANTOSO" [ref=e234]:
+                      - generic [ref=e236]: ARIF SANTOSO
+                    - cell "Ijazah" [ref=e237]:
+                      - generic [ref=e239]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e240]:
+                      - generic [ref=e242]: Dokumen Ijazah
+                    - cell "Download" [ref=e243]:
+                      - button "Download" [ref=e246] [cursor=pointer]:
+                        - img [ref=e247]
+                        - text: Download
+                  - row "RIZAL PERMATA Ijazah Dokumen Ijazah Download" [ref=e250]:
+                    - cell [ref=e251]:
+                      - generic [ref=e254] [cursor=pointer]:
+                        - checkbox
+                    - cell "RIZAL PERMATA" [ref=e256]:
+                      - generic [ref=e258]: RIZAL PERMATA
+                    - cell "Ijazah" [ref=e259]:
+                      - generic [ref=e261]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e262]:
+                      - generic [ref=e264]: Dokumen Ijazah
+                    - cell "Download" [ref=e265]:
+                      - button "Download" [ref=e268] [cursor=pointer]:
+                        - img [ref=e269]
+                        - text: Download
+                  - row "YANI SAPUTRA Ijazah Dokumen Ijazah Download" [ref=e272]:
+                    - cell [ref=e273]:
+                      - generic [ref=e276] [cursor=pointer]:
+                        - checkbox
+                    - cell "YANI SAPUTRA" [ref=e278]:
+                      - generic [ref=e280]: YANI SAPUTRA
+                    - cell "Ijazah" [ref=e281]:
+                      - generic [ref=e283]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e284]:
+                      - generic [ref=e286]: Dokumen Ijazah
+                    - cell "Download" [ref=e287]:
+                      - button "Download" [ref=e290] [cursor=pointer]:
+                        - img [ref=e291]
+                        - text: Download
+                  - row "TINA SANTOSO Ijazah Dokumen Ijazah Download" [ref=e294]:
+                    - cell [ref=e295]:
+                      - generic [ref=e298] [cursor=pointer]:
+                        - checkbox
+                    - cell "TINA SANTOSO" [ref=e300]:
+                      - generic [ref=e302]: TINA SANTOSO
+                    - cell "Ijazah" [ref=e303]:
+                      - generic [ref=e305]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e306]:
+                      - generic [ref=e308]: Dokumen Ijazah
+                    - cell "Download" [ref=e309]:
+                      - button "Download" [ref=e312] [cursor=pointer]:
+                        - img [ref=e313]
+                        - text: Download
+                  - row "TAUFIK SETIAWAN Ijazah Dokumen Ijazah Download" [ref=e316]:
+                    - cell [ref=e317]:
+                      - generic [ref=e320] [cursor=pointer]:
+                        - checkbox
+                    - cell "TAUFIK SETIAWAN" [ref=e322]:
+                      - generic [ref=e324]: TAUFIK SETIAWAN
+                    - cell "Ijazah" [ref=e325]:
+                      - generic [ref=e327]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e328]:
+                      - generic [ref=e330]: Dokumen Ijazah
+                    - cell "Download" [ref=e331]:
+                      - button "Download" [ref=e334] [cursor=pointer]:
+                        - img [ref=e335]
+                        - text: Download
+                  - row "MEGA UTAMI Ijazah Dokumen Ijazah Download" [ref=e338]:
+                    - cell [ref=e339]:
+                      - generic [ref=e342] [cursor=pointer]:
+                        - checkbox
+                    - cell "MEGA UTAMI" [ref=e344]:
+                      - generic [ref=e346]: MEGA UTAMI
+                    - cell "Ijazah" [ref=e347]:
+                      - generic [ref=e349]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e350]:
+                      - generic [ref=e352]: Dokumen Ijazah
+                    - cell "Download" [ref=e353]:
+                      - button "Download" [ref=e356] [cursor=pointer]:
+                        - img [ref=e357]
+                        - text: Download
+                  - row "PUTRI PRATAMA Ijazah Dokumen Ijazah Download" [ref=e360]:
+                    - cell [ref=e361]:
+                      - generic [ref=e364] [cursor=pointer]:
+                        - checkbox
+                    - cell "PUTRI PRATAMA" [ref=e366]:
+                      - generic [ref=e368]: PUTRI PRATAMA
+                    - cell "Ijazah" [ref=e369]:
+                      - generic [ref=e371]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e372]:
+                      - generic [ref=e374]: Dokumen Ijazah
+                    - cell "Download" [ref=e375]:
+                      - button "Download" [ref=e378] [cursor=pointer]:
+                        - img [ref=e379]
+                        - text: Download
+                  - row "RINA HIDAYAT Ijazah Dokumen Ijazah Download" [ref=e382]:
+                    - cell [ref=e383]:
+                      - generic [ref=e386] [cursor=pointer]:
+                        - checkbox
+                    - cell "RINA HIDAYAT" [ref=e388]:
+                      - generic [ref=e390]: RINA HIDAYAT
+                    - cell "Ijazah" [ref=e391]:
+                      - generic [ref=e393]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e394]:
+                      - generic [ref=e396]: Dokumen Ijazah
+                    - cell "Download" [ref=e397]:
+                      - button "Download" [ref=e400] [cursor=pointer]:
+                        - img [ref=e401]
+                        - text: Download
+                  - row "DIMAS MAHARDIKA Ijazah Dokumen Ijazah Download" [ref=e404]:
+                    - cell [ref=e405]:
+                      - generic [ref=e408] [cursor=pointer]:
+                        - checkbox
+                    - cell "DIMAS MAHARDIKA" [ref=e410]:
+                      - generic [ref=e412]: DIMAS MAHARDIKA
+                    - cell "Ijazah" [ref=e413]:
+                      - generic [ref=e415]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e416]:
+                      - generic [ref=e418]: Dokumen Ijazah
+                    - cell "Download" [ref=e419]:
+                      - button "Download" [ref=e422] [cursor=pointer]:
+                        - img [ref=e423]
+                        - text: Download
+                  - row "NANDA SAPUTRI Ijazah Dokumen Ijazah Download" [ref=e426]:
+                    - cell [ref=e427]:
+                      - generic [ref=e430] [cursor=pointer]:
+                        - checkbox
+                    - cell "NANDA SAPUTRI" [ref=e432]:
+                      - generic [ref=e434]: NANDA SAPUTRI
+                    - cell "Ijazah" [ref=e435]:
+                      - generic [ref=e437]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e438]:
+                      - generic [ref=e440]: Dokumen Ijazah
+                    - cell "Download" [ref=e441]:
+                      - button "Download" [ref=e444] [cursor=pointer]:
+                        - img [ref=e445]
+                        - text: Download
+                  - row "ANISA SANTOSO Ijazah Dokumen Ijazah Download" [ref=e448]:
+                    - cell [ref=e449]:
+                      - generic [ref=e452] [cursor=pointer]:
+                        - checkbox
+                    - cell "ANISA SANTOSO" [ref=e454]:
+                      - generic [ref=e456]: ANISA SANTOSO
+                    - cell "Ijazah" [ref=e457]:
+                      - generic [ref=e459]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e460]:
+                      - generic [ref=e462]: Dokumen Ijazah
+                    - cell "Download" [ref=e463]:
+                      - button "Download" [ref=e466] [cursor=pointer]:
+                        - img [ref=e467]
+                        - text: Download
+                  - row "FAISAL WIJAYA Ijazah Dokumen Ijazah Download" [ref=e470]:
+                    - cell [ref=e471]:
+                      - generic [ref=e474] [cursor=pointer]:
+                        - checkbox
+                    - cell "FAISAL WIJAYA" [ref=e476]:
+                      - generic [ref=e478]: FAISAL WIJAYA
+                    - cell "Ijazah" [ref=e479]:
+                      - generic [ref=e481]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e482]:
+                      - generic [ref=e484]: Dokumen Ijazah
+                    - cell "Download" [ref=e485]:
+                      - button "Download" [ref=e488] [cursor=pointer]:
+                        - img [ref=e489]
+                        - text: Download
+                  - row "TEGUH SAPUTRA Ijazah Dokumen Ijazah Download" [ref=e492]:
+                    - cell [ref=e493]:
+                      - generic [ref=e496] [cursor=pointer]:
+                        - checkbox
+                    - cell "TEGUH SAPUTRA" [ref=e498]:
+                      - generic [ref=e500]: TEGUH SAPUTRA
+                    - cell "Ijazah" [ref=e501]:
+                      - generic [ref=e503]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e504]:
+                      - generic [ref=e506]: Dokumen Ijazah
+                    - cell "Download" [ref=e507]:
+                      - button "Download" [ref=e510] [cursor=pointer]:
+                        - img [ref=e511]
+                        - text: Download
+                  - row "YOGA NUGRAHA Ijazah Dokumen Ijazah Download" [ref=e514]:
+                    - cell [ref=e515]:
+                      - generic [ref=e518] [cursor=pointer]:
+                        - checkbox
+                    - cell "YOGA NUGRAHA" [ref=e520]:
+                      - generic [ref=e522]: YOGA NUGRAHA
+                    - cell "Ijazah" [ref=e523]:
+                      - generic [ref=e525]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e526]:
+                      - generic [ref=e528]: Dokumen Ijazah
+                    - cell "Download" [ref=e529]:
+                      - button "Download" [ref=e532] [cursor=pointer]:
+                        - img [ref=e533]
+                        - text: Download
+                  - row "NURUL CAHYONO Ijazah Dokumen Ijazah Download" [ref=e536]:
+                    - cell [ref=e537]:
+                      - generic [ref=e540] [cursor=pointer]:
+                        - checkbox
+                    - cell "NURUL CAHYONO" [ref=e542]:
+                      - generic [ref=e544]: NURUL CAHYONO
+                    - cell "Ijazah" [ref=e545]:
+                      - generic [ref=e547]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e548]:
+                      - generic [ref=e550]: Dokumen Ijazah
+                    - cell "Download" [ref=e551]:
+                      - button "Download" [ref=e554] [cursor=pointer]:
+                        - img [ref=e555]
+                        - text: Download
+                  - row "TEGUH FAISAL Ijazah Dokumen Ijazah Download" [ref=e558]:
+                    - cell [ref=e559]:
+                      - generic [ref=e562] [cursor=pointer]:
+                        - checkbox
+                    - cell "TEGUH FAISAL" [ref=e564]:
+                      - generic [ref=e566]: TEGUH FAISAL
+                    - cell "Ijazah" [ref=e567]:
+                      - generic [ref=e569]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e570]:
+                      - generic [ref=e572]: Dokumen Ijazah
+                    - cell "Download" [ref=e573]:
+                      - button "Download" [ref=e576] [cursor=pointer]:
+                        - img [ref=e577]
+                        - text: Download
+                  - row "RANI WIJAYA Ijazah Dokumen Ijazah Download" [ref=e580]:
+                    - cell [ref=e581]:
+                      - generic [ref=e584] [cursor=pointer]:
+                        - checkbox
+                    - cell "RANI WIJAYA" [ref=e586]:
+                      - generic [ref=e588]: RANI WIJAYA
+                    - cell "Ijazah" [ref=e589]:
+                      - generic [ref=e591]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e592]:
+                      - generic [ref=e594]: Dokumen Ijazah
+                    - cell "Download" [ref=e595]:
+                      - button "Download" [ref=e598] [cursor=pointer]:
+                        - img [ref=e599]
+                        - text: Download
+                  - row "RIKO PERMATA Ijazah Dokumen Ijazah Download" [ref=e602]:
+                    - cell [ref=e603]:
+                      - generic [ref=e606] [cursor=pointer]:
+                        - checkbox
+                    - cell "RIKO PERMATA" [ref=e608]:
+                      - generic [ref=e610]: RIKO PERMATA
+                    - cell "Ijazah" [ref=e611]:
+                      - generic [ref=e613]: Ijazah
+                    - cell "Dokumen Ijazah" [ref=e614]:
+                      - generic [ref=e616]: Dokumen Ijazah
+                    - cell "Download" [ref=e617]:
+                      - button "Download" [ref=e620] [cursor=pointer]:
+                        - img [ref=e621]
+                        - text: Download
+              - generic [ref=e624]:
+                - generic [ref=e625]: Menampilkan 41 sampai 60 dari 71
+                - list [ref=e626]:
+                  - listitem [ref=e627]:
+                    - generic [ref=e629]:
+                      - generic [ref=e630]: 
+                      - generic: 
+                  - listitem [ref=e631]:
+                    - generic [ref=e633]: 
+                  - listitem [ref=e634]:
+                    - generic [ref=e635]: "1"
+                  - listitem [ref=e636]:
+                    - generic [ref=e637]: "2"
+                  - listitem [ref=e638]:
+                    - generic [ref=e639]: "3"
+                  - listitem [ref=e640]:
+                    - generic [ref=e641]: "4"
+                  - listitem [ref=e642]:
+                    - generic [ref=e644]: 
+                  - listitem [ref=e645]:
+                    - generic [ref=e647]:
+                      - generic [ref=e648]: 
+                      - generic: 
+                - generic [ref=e649]:
+                  - generic [ref=e650]: Halaman 3 dari 4
+                  - generic [ref=e651]:
+                    - generic [ref=e652]: "Ke halaman:"
+                    - spinbutton [ref=e653]
+                    - button "Go" [ref=e654] [cursor=pointer]
+        - generic [ref=e657]:
+          - text: 2025©
+          - link "Personalia" [ref=e658] [cursor=pointer]:
+            - /url: https://personalia.id/
+    - generic [ref=e660]:
+      - generic [ref=e661]:
+        - generic [ref=e663]:
+          - link "Brian Cox" [ref=e664] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e665]: Active
+        - generic [ref=e667]:
+          - generic [ref=e668]:
+            - button "" [ref=e669] [cursor=pointer]:
+              - generic [ref=e670]: 
+            - text: 
+          - generic [ref=e672] [cursor=pointer]:
+            - generic [ref=e673]: 
+            - generic: 
+      - generic [ref=e675]:
+        - generic [ref=e677]:
+          - generic [ref=e678]:
+            - img "Pic" [ref=e680]
+            - generic [ref=e681]:
+              - link "Brian Cox" [ref=e682] [cursor=pointer]:
+                - /url: "#"
+              - text: 5 Hours
+          - generic [ref=e683]: How likely are you to recommend our company to your friends and family ?
+        - generic [ref=e685]:
+          - generic [ref=e686]:
+            - generic [ref=e687]:
+              - text: 2 Hours
+              - link "You" [ref=e688] [cursor=pointer]:
+                - /url: "#"
+            - img "Pic" [ref=e690]
+          - generic [ref=e691]: Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.
+        - generic [ref=e693]:
+          - generic [ref=e694]:
+            - img "Pic" [ref=e696]
+            - generic [ref=e697]:
+              - link "Brian Cox" [ref=e698] [cursor=pointer]:
+                - /url: "#"
+              - text: 2 Hour
+          - generic [ref=e699]: Ok, Understood!
+        - generic [ref=e701]:
+          - generic [ref=e702]:
+            - generic [ref=e703]:
+              - text: 2 Hours
+              - link "You" [ref=e704] [cursor=pointer]:
+                - /url: "#"
+            - img "Pic" [ref=e706]
+          - generic [ref=e707]: You’ll receive notifications for all issues, pull requests!
+        - generic [ref=e709]:
+          - generic [ref=e710]:
+            - img "Pic" [ref=e712]
+            - generic [ref=e713]:
+              - link "Brian Cox" [ref=e714] [cursor=pointer]:
+                - /url: "#"
+              - text: 1 Hour
+          - generic [ref=e715]: "You can unwatch this repository immediately by clicking here: Keenthemes.com"
+        - generic [ref=e717]:
+          - generic [ref=e718]:
+            - generic [ref=e719]:
+              - text: 4 mins
+              - link "You" [ref=e720] [cursor=pointer]:
+                - /url: "#"
+            - img "Pic" [ref=e722]
+          - generic [ref=e723]: Most purchased Business courses during this sale!
+        - generic [ref=e725]:
+          - generic [ref=e726]:
+            - img "Pic" [ref=e728]
+            - generic [ref=e729]:
+              - link "Brian Cox" [ref=e730] [cursor=pointer]:
+                - /url: "#"
+              - text: 2 mins
+          - generic [ref=e731]: Company BBQ to celebrate the last quater achievements and goals. Food and drinks provided
+      - generic [ref=e732]:
+        - textbox "Type a message" [ref=e733]
+        - generic [ref=e734]:
+          - generic [ref=e735]:
+            - button "" [ref=e736] [cursor=pointer]:
+              - generic [ref=e737]: 
+            - button "" [ref=e738] [cursor=pointer]:
+              - generic [ref=e739]: 
+          - button "Send" [ref=e740] [cursor=pointer]
+    - generic [ref=e742]:
+      - generic [ref=e743]:
+        - heading "Activity Logs" [level=3] [ref=e744]
+        - button " " [ref=e746] [cursor=pointer]:
+          - generic [ref=e747]:
+            - generic [ref=e748]: 
+            - generic: 
+      - generic [ref=e751]:
+        - generic [ref=e752]:
+          - generic [ref=e756]:
+            - generic [ref=e757]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e758]:
+            - generic [ref=e759]:
+              - generic [ref=e760]: "There are 2 new tasks for you in “AirPlus Mobile APp” project:"
+              - generic [ref=e761]:
+                - generic [ref=e762]: Added at 4:23 PM by
+                - generic "Nina Nilson" [ref=e763]:
+                  - img "img" [ref=e764]
+            - generic [ref=e765]:
+              - generic [ref=e766]:
+                - link "Meeting with customer" [ref=e767] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=e769]: Application Design
+                - generic [ref=e770]:
+                  - img "img" [ref=e772] [cursor=pointer]
+                  - img "img" [ref=e774] [cursor=pointer]
+                  - generic [ref=e776] [cursor=pointer]: A
+                - generic [ref=e778]: In Progress
+                - link "View" [ref=e779] [cursor=pointer]:
+                  - /url: "#"
+              - generic [ref=e780]:
+                - link "Project Delivery Preparation" [ref=e781] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=e783]: CRM System Development
+                - generic [ref=e784]:
+                  - img "img" [ref=e786] [cursor=pointer]
+                  - generic [ref=e788] [cursor=pointer]: B
+                - generic [ref=e790]: Completed
+                - link "View" [ref=e791] [cursor=pointer]:
+                  - /url: "#"
+        - generic [ref=e792]:
+          - generic [ref=e796]:
+            - generic [ref=e797]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e799]:
+            - generic [ref=e800]: Invitation for crafting engaging designs that speak human workshop
+            - generic [ref=e801]:
+              - generic [ref=e802]: Sent at 4:23 PM by
+              - generic "Alan Nilson" [ref=e803]:
+                - img "img" [ref=e804]
+        - generic [ref=e805]:
+          - generic [ref=e809]:
+            - generic [ref=e810]: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e811]:
+            - generic [ref=e812]:
+              - link "3 New Incoming Project Files:" [ref=e813] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e814]:
+                - generic [ref=e815]: Sent at 10:30 PM by
+                - generic "Jan Hummer" [ref=e816]:
+                  - img "img" [ref=e817]
+            - generic [ref=e819]:
+              - generic [ref=e821]:
+                - link "Finance KPI App Guidelines" [ref=e822] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=e823]: 1.9mb
+              - generic [ref=e825]:
+                - link "Client UAT Testing Results" [ref=e826] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=e827]: 18kb
+              - generic [ref=e829]:
+                - link "Finance Reports" [ref=e830] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=e831]: 20mb
+        - generic [ref=e832]:
+          - generic [ref=e836]:
+            - generic [ref=e837]: 
+            - generic: 
+          - generic [ref=e839]:
+            - generic [ref=e840]:
+              - text: Task
+              - link "#45890" [ref=e841] [cursor=pointer]:
+                - /url: "#"
+              - text: merged with
+              - link "#45890" [ref=e842] [cursor=pointer]:
+                - /url: "#"
+              - text: "in “Ads Pro Admin Dashboard project:"
+            - generic [ref=e843]:
+              - generic [ref=e844]: Initiated at 4:23 PM by
+              - generic "Nina Nilson" [ref=e845]:
+                - img "img" [ref=e846]
+        - generic [ref=e847]:
+          - generic [ref=e851]:
+            - generic [ref=e852]: 
+            - generic: 
+          - generic [ref=e853]:
+            - generic [ref=e854]:
+              - generic [ref=e855]: "3 new application design concepts added:"
+              - generic [ref=e856]:
+                - generic [ref=e857]: Created at 4:23 PM by
+                - generic "Marcus Dotson" [ref=e858]:
+                  - img "img" [ref=e859]
+            - generic [ref=e861]:
+              - generic [ref=e862]:
+                - img "img" [ref=e864]
+                - link "Explore" [ref=e866] [cursor=pointer]:
+                  - /url: "#"
+              - generic [ref=e867]:
+                - img "img" [ref=e869]
+                - link "Explore" [ref=e871] [cursor=pointer]:
+                  - /url: "#"
+              - generic [ref=e872]:
+                - img "img" [ref=e874]
+                - link "Explore" [ref=e876] [cursor=pointer]:
+                  - /url: "#"
+        - generic [ref=e877]:
+          - generic [ref=e881]:
+            - generic [ref=e882]: 
+            - generic: 
+          - generic [ref=e884]:
+            - generic [ref=e885]:
+              - text: New case
+              - link "#67890" [ref=e886] [cursor=pointer]:
+                - /url: "#"
+              - text: is assigned to you in Multi-platform Database Design project
+            - generic [ref=e888]:
+              - generic [ref=e889]: Added at 4:23 PM by
+              - link "Alice Tan" [ref=e890] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e891]:
+          - generic [ref=e895]:
+            - generic [ref=e896]: 
+            - generic: 
+          - generic [ref=e897]:
+            - generic [ref=e898]:
+              - generic [ref=e899]: "You have received a new order:"
+              - generic [ref=e900]:
+                - generic [ref=e901]: Placed at 5:05 AM by
+                - generic "Robert Rich" [ref=e902]:
+                  - img "img" [ref=e903]
+            - generic [ref=e905]:
+              - generic [ref=e906]:
+                - generic [ref=e907]: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic [ref=e908]:
+                - generic [ref=e909]:
+                  - heading "Database Backup Process Completed!" [level=4] [ref=e910]
+                  - generic [ref=e911]: Login into Metronic Admin Dashboard to make sure the data integrity is OK
+                - link "Proceed" [ref=e912] [cursor=pointer]:
+                  - /url: "#"
+      - link "View All Activities  " [ref=e914] [cursor=pointer]:
+        - /url: "#"
+        - text: View All Activities
+        - generic [ref=e915]:
+          - generic [ref=e916]: 
+          - generic: 
+    - text:        *  *           *      * *     *  * * *         
+  - iframe [ref=e919]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```

@@ -1,11 +1,15 @@
-import { Client } from 'pg';
+// utils/db.ts
 import dotenv from 'dotenv';
+import { Client } from 'pg';
 
-// Load environment file (.env.dev)
 dotenv.config({ path: '.env.dev' });
 
+let client: Client | null = null;
+
 export async function connectDB() {
-  const client = new Client({
+  if (client) return client; // gunakan koneksi lama kalau sudah ada
+
+  client = new Client({
     host: process.env.DB_HOST,
     port: Number(process.env.DB_PORT),
     user: process.env.DB_USER,
@@ -13,16 +17,20 @@ export async function connectDB() {
     database: process.env.DB_NAME,
   });
 
-  try {
-    await client.connect();
-    console.log('✅ Database connected successfully!');
-    return client;
-  } catch (error) {
-    if (error instanceof Error) {
-      console.error('❌ Failed to connect to database:', error.message);
-    } else {
-      console.error('❌ Unknown error:', error);
-    }
-    throw error;
+  await client.connect();
+  console.log('✅ DB connected');
+  return client;
+}
+
+export async function disconnectDB() {
+  if (client) {
+    await client.end();
+    console.log('🔌 DB disconnected');
+    client = null;
   }
+}
+
+export async function resetDBConnection() {
+  await disconnectDB();
+  await connectDB();
 }

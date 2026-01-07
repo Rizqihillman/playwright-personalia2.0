@@ -9,10 +9,14 @@
     "allure:generate": "npx --no-install allure generate \"allure-results\" --clean -o \"allure-report\"",
     "allure:open": "npx --no-install allure open \"allure-report\"",
     "test:access:dev": "cross-env ENV=dev playwright test tests/access-control.spec.ts",
-    "test:access:staging": "cross-env ENV=staging playwright test tests/access-control.spec.ts"
+    "test:access:staging": "cross-env ENV=staging playwright test tests/access-control.spec.ts",
+    "prisma:test": "node ./scripts/test-prisma-connection.js",
+    "prisma:test:dev": "cross-env ENV=dev ts-node scripts/test-prisma-connection.ts",
+    "prisma:test:staging": "cross-env ENV=staging ts-node scripts/test-prisma-connection.ts",
+    "agent:test": "playwright test --plan=docs/test-plans/sign-in-page-test-plan.md --headed"
   },
   "devDependencies": {
-    "@playwright/test": "^1.56.0",
+    "@playwright/test": "^1.56.1",
     "@types/node": "^24.7.0",
     "@types/pg": "^8.15.5",
     "allure-playwright": "^3.4.1",
@@ -20,6 +24,10 @@
     "dotenv": "^16.0.0"
   },
   "dependencies": {
-    "pg": "^8.16.3"
+    "@prisma/client": "^6.17.1",
+    "pg": "^8.16.3",
+    "playwright": "^1.46.1",
+    "playwright-mcp": "^0.0.12",
+    "prisma": "^6.17.1"
   }
 }

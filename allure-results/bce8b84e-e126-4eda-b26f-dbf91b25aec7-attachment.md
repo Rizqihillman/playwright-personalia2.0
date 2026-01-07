@@ -1,0 +1,53 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - heading "Masuk" [level=1] [ref=e11]
+        - generic [ref=e12]: Masukan email dan kata sandi yang benar
+      - generic [ref=e13]:
+        - textbox "Email" [ref=e14]
+        - alert [ref=e17]: Username wajib diisi.
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - textbox "Password" [ref=e20]
+          - button "Tampilkan password" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: 
+        - alert [ref=e25]: Kata sandi wajib diisi.
+        - link " Lupa kata sandi?" [ref=e27] [cursor=pointer]:
+          - /url: /password-reset
+          - generic [ref=e28]: 
+          - text: Lupa kata sandi?
+      - generic [ref=e29]:
+        - button "Masuk" [active] [ref=e30] [cursor=pointer]
+        - generic [ref=e31]:
+          - text: Belum punya akun?
+          - link "Daftar Sekarang" [ref=e32] [cursor=pointer]:
+            - /url: /sign-up
+    - generic [ref=e34]:
+      - link "Logo" [ref=e35] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=e36]
+      - generic [ref=e37]:
+        - text: Segala informasi dan aktivitas terkait
+        - link "Kepegawaian" [ref=e38] [cursor=pointer]:
+          - /url: "#"
+        - text: kini dapat diakses dengan mudah melalui website maupun Aplikasi Mobile
+        - link "Personalia" [ref=e39] [cursor=pointer]:
+          - /url: "#"
+  - iframe [ref=e42]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```

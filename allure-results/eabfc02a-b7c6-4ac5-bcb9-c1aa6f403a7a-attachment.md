@@ -1,0 +1,408 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e6]:
+          - img [ref=e8]
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - link [ref=e12] [cursor=pointer]:
+                - /url: "#"
+                - text: Admin Test User
+              - generic [ref=e13]: Administrator
+            - button [ref=e15] [cursor=pointer]:
+              - generic [ref=e16]:
+                - generic [ref=e17]: 
+                - text: 
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e24]:
+              - generic [ref=e25]: 
+              - text:   
+            - generic [ref=e26]: Personalia
+          - generic [ref=e28]:
+            - generic [ref=e29] [cursor=pointer]:
+              - generic [ref=e31]:
+                - generic [ref=e32]: 
+                - text:   
+              - generic [ref=e33]: Layanan Mandiri
+            - link [active] [ref=e37] [cursor=pointer]:
+              - /url: /announcement
+              - generic [ref=e40]: Announcement
+          - link [ref=e42] [cursor=pointer]:
+            - /url: /payroll
+            - generic [ref=e44]:
+              - generic [ref=e45]: 
+              - text:   
+            - generic [ref=e46]: Payroll
+          - generic [ref=e48] [cursor=pointer]:
+            - generic [ref=e50]:
+              - generic [ref=e51]: 
+              - text:   
+            - generic [ref=e52]: Pengaturan
+          - generic [ref=e55] [cursor=pointer]:
+            - generic [ref=e57]:
+              - generic [ref=e58]: 
+              - text:   
+            - generic [ref=e59]: Admin Area
+          - link [ref=e65] [cursor=pointer]:
+            - /url: https://preview.keenthemes.com/metronic8/vue/docs/getting-started/changelog
+            - generic [ref=e67]:
+              - generic [ref=e68]: 
+              - text: 
+            - generic [ref=e69]: Changelog v2.0.0
+        - link [ref=e71] [cursor=pointer]:
+          - /url: https://preview.keenthemes.com/metronic8/vue/docs/index
+          - generic [ref=e72]: Docs & Components
+          - generic [ref=e73]:
+            - generic [ref=e74]: 
+            - text: 
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - link [ref=e78] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e79]
+            - generic [ref=e80] [cursor=pointer]:
+              - generic [ref=e81]:
+                - generic [ref=e82]: 
+                - text: 
+              - text:  
+            - text:  
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - heading [level=1] [ref=e86]: Announcement
+              - list [ref=e87]:
+                - listitem [ref=e88]:
+                  - link [ref=e89] [cursor=pointer]:
+                    - /url: /
+                    - text: Home
+                - listitem [ref=e90]
+                - listitem [ref=e92]: Announcement
+            - generic [ref=e94]:
+              - link [ref=e95] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e96]:
+                  - generic [ref=e97]: 
+                  - text:         
+                - text:  
+              - text:                
+        - generic [ref=e102]:
+          - heading [level=3] [ref=e104]: Buat Announcement
+          - generic [ref=e106]:
+            - generic [ref=e109]:
+              - textbox [ref=e110]:
+                - /placeholder: Judul Announcement
+              - textbox [ref=e111]:
+                - /placeholder: Deskripsi...
+            - generic [ref=e113]:
+              - generic [ref=e114]: 
+              - generic [ref=e115]: Lampirkan file dalam bentuk PDF atau gambar (JPG, PNG) maksimal 2mb
+            - button [ref=e117] [cursor=pointer]:
+              - generic [ref=e118]: 
+              - text: Tambah file
+            - generic [ref=e119]:
+              - button [disabled]: Batal
+              - button [ref=e120] [cursor=pointer]: Simpan
+          - heading [level=3] [ref=e121]: Announcement
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - generic [ref=e127]:
+                  - link [ref=e128] [cursor=pointer]:
+                    - /url: "#"
+                    - text: Admin Test User
+                  - generic [ref=e129]: 04/11/2025 - 11:02
+                - generic [ref=e130]:
+                  - generic [ref=e131]: Menunggu
+                  - button [ref=e132] [cursor=pointer]:
+                    - img [ref=e133]
+                  - text:       
+              - generic [ref=e138]:
+                - heading [level=3] [ref=e140]: Test Pengumunan
+                - generic [ref=e141]:
+                  - paragraph [ref=e142]: Disini adalah deskripsi
+                  - link [ref=e143] [cursor=pointer]:
+                    - /url: "#"
+                    - text: Baca selengkapnya...
+            - generic [ref=e146]: Tidak ada pengumuman lainnya
+        - generic [ref=e149]:
+          - text: 2025©
+          - link [ref=e150] [cursor=pointer]:
+            - /url: https://personalia.id/
+            - text: Personalia
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - generic [ref=e155]:
+          - link [ref=e156] [cursor=pointer]:
+            - /url: "#"
+            - text: Brian Cox
+          - generic [ref=e157]: Active
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - button [ref=e161] [cursor=pointer]:
+              - generic [ref=e162]: 
+            - text: 
+          - generic [ref=e164] [cursor=pointer]:
+            - generic [ref=e165]: 
+            - text: 
+      - generic [ref=e167]:
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - img [ref=e172]
+            - generic [ref=e173]:
+              - link [ref=e174] [cursor=pointer]:
+                - /url: "#"
+                - text: Brian Cox
+              - text: 5 Hours
+          - generic [ref=e175]: How likely are you to recommend our company to your friends and family ?
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - text: 2 Hours
+              - link [ref=e180] [cursor=pointer]:
+                - /url: "#"
+                - text: You
+            - img [ref=e182]
+          - generic [ref=e183]: Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - img [ref=e188]
+            - generic [ref=e189]:
+              - link [ref=e190] [cursor=pointer]:
+                - /url: "#"
+                - text: Brian Cox
+              - text: 2 Hour
+          - generic [ref=e191]: Ok, Understood!
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - text: 2 Hours
+              - link [ref=e196] [cursor=pointer]:
+                - /url: "#"
+                - text: You
+            - img [ref=e198]
+          - generic [ref=e199]: You’ll receive notifications for all issues, pull requests!
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - img [ref=e204]
+            - generic [ref=e205]:
+              - link [ref=e206] [cursor=pointer]:
+                - /url: "#"
+                - text: Brian Cox
+              - text: 1 Hour
+          - generic [ref=e207]: "You can unwatch this repository immediately by clicking here: Keenthemes.com"
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - text: 4 mins
+              - link [ref=e212] [cursor=pointer]:
+                - /url: "#"
+                - text: You
+            - img [ref=e214]
+          - generic [ref=e215]: Most purchased Business courses during this sale!
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - img [ref=e220]
+            - generic [ref=e221]:
+              - link [ref=e222] [cursor=pointer]:
+                - /url: "#"
+                - text: Brian Cox
+              - text: 2 mins
+          - generic [ref=e223]: Company BBQ to celebrate the last quater achievements and goals. Food and drinks provided
+      - generic [ref=e224]:
+        - textbox [ref=e225]:
+          - /placeholder: Type a message
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - button [ref=e228] [cursor=pointer]:
+              - generic [ref=e229]: 
+            - button [ref=e230] [cursor=pointer]:
+              - generic [ref=e231]: 
+          - button [ref=e232] [cursor=pointer]: Send
+    - generic [ref=e234]:
+      - generic [ref=e235]:
+        - heading [level=3] [ref=e236]: Activity Logs
+        - button [ref=e238] [cursor=pointer]:
+          - generic [ref=e239]:
+            - generic [ref=e240]: 
+            - text: 
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - generic [ref=e248]:
+            - generic [ref=e249]: 
+            - text:  
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - generic [ref=e252]: "There are 2 new tasks for you in “AirPlus Mobile APp” project:"
+              - generic [ref=e253]:
+                - generic [ref=e254]: Added at 4:23 PM by
+                - img [ref=e256]
+            - generic [ref=e257]:
+              - generic [ref=e258]:
+                - link [ref=e259] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Meeting with customer
+                - generic [ref=e261]: Application Design
+                - generic [ref=e262]:
+                  - img [ref=e264] [cursor=pointer]
+                  - img [ref=e266] [cursor=pointer]
+                  - generic [ref=e268] [cursor=pointer]: A
+                - generic [ref=e270]: In Progress
+                - link [ref=e271] [cursor=pointer]:
+                  - /url: "#"
+                  - text: View
+              - generic [ref=e272]:
+                - link [ref=e273] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Project Delivery Preparation
+                - generic [ref=e275]: CRM System Development
+                - generic [ref=e276]:
+                  - img [ref=e278] [cursor=pointer]
+                  - generic [ref=e280] [cursor=pointer]: B
+                - generic [ref=e282]: Completed
+                - link [ref=e283] [cursor=pointer]:
+                  - /url: "#"
+                  - text: View
+        - generic [ref=e284]:
+          - generic [ref=e288]:
+            - generic [ref=e289]: 
+            - text:  
+          - generic [ref=e291]:
+            - generic [ref=e292]: Invitation for crafting engaging designs that speak human workshop
+            - generic [ref=e293]:
+              - generic [ref=e294]: Sent at 4:23 PM by
+              - img [ref=e296]
+        - generic [ref=e297]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: 
+            - text:    
+          - generic [ref=e303]:
+            - generic [ref=e304]:
+              - link [ref=e305] [cursor=pointer]:
+                - /url: "#"
+                - text: "3 New Incoming Project Files:"
+              - generic [ref=e306]:
+                - generic [ref=e307]: Sent at 10:30 PM by
+                - img [ref=e309]
+            - generic [ref=e311]:
+              - generic [ref=e313]:
+                - link [ref=e314] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Finance KPI App Guidelines
+                - generic [ref=e315]: 1.9mb
+              - generic [ref=e317]:
+                - link [ref=e318] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Client UAT Testing Results
+                - generic [ref=e319]: 18kb
+              - generic [ref=e321]:
+                - link [ref=e322] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Finance Reports
+                - generic [ref=e323]: 20mb
+        - generic [ref=e324]:
+          - generic [ref=e328]:
+            - generic [ref=e329]: 
+            - text: 
+          - generic [ref=e331]:
+            - generic [ref=e332]:
+              - text: Task
+              - link [ref=e333] [cursor=pointer]:
+                - /url: "#"
+                - text: "#45890"
+              - text: merged with
+              - link [ref=e334] [cursor=pointer]:
+                - /url: "#"
+                - text: "#45890"
+              - text: "in “Ads Pro Admin Dashboard project:"
+            - generic [ref=e335]:
+              - generic [ref=e336]: Initiated at 4:23 PM by
+              - img [ref=e338]
+        - generic [ref=e339]:
+          - generic [ref=e343]:
+            - generic [ref=e344]: 
+            - text: 
+          - generic [ref=e345]:
+            - generic [ref=e346]:
+              - generic [ref=e347]: "3 new application design concepts added:"
+              - generic [ref=e348]:
+                - generic [ref=e349]: Created at 4:23 PM by
+                - img [ref=e351]
+            - generic [ref=e353]:
+              - generic [ref=e354]:
+                - img [ref=e356]
+                - link [ref=e358] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Explore
+              - generic [ref=e359]:
+                - img [ref=e361]
+                - link [ref=e363] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Explore
+              - generic [ref=e364]:
+                - img [ref=e366]
+                - link [ref=e368] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Explore
+        - generic [ref=e369]:
+          - generic [ref=e373]:
+            - generic [ref=e374]: 
+            - text: 
+          - generic [ref=e376]:
+            - generic [ref=e377]:
+              - text: New case
+              - link [ref=e378] [cursor=pointer]:
+                - /url: "#"
+                - text: "#67890"
+              - text: is assigned to you in Multi-platform Database Design project
+            - generic [ref=e380]:
+              - generic [ref=e381]: Added at 4:23 PM by
+              - link [ref=e382] [cursor=pointer]:
+                - /url: "#"
+                - text: Alice Tan
+        - generic [ref=e383]:
+          - generic [ref=e387]:
+            - generic [ref=e388]: 
+            - text: 
+          - generic [ref=e389]:
+            - generic [ref=e390]:
+              - generic [ref=e391]: "You have received a new order:"
+              - generic [ref=e392]:
+                - generic [ref=e393]: Placed at 5:05 AM by
+                - img [ref=e395]
+            - generic [ref=e397]:
+              - generic [ref=e398]:
+                - generic [ref=e399]: 
+                - text:    
+              - generic [ref=e400]:
+                - generic [ref=e401]:
+                  - heading [level=4] [ref=e402]: Database Backup Process Completed!
+                  - generic [ref=e403]: Login into Metronic Admin Dashboard to make sure the data integrity is OK
+                - link [ref=e404] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Proceed
+      - link [ref=e406] [cursor=pointer]:
+        - /url: "#"
+        - text: View All Activities
+        - generic [ref=e407]:
+          - generic [ref=e408]: 
+          - text: 
+    - text:        *  *           *      * *     *  * * *         
+  - iframe [ref=e411]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```
